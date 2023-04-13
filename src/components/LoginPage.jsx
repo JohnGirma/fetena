@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, CardContent, Typography, TextField, Button, makeStyles, Divider, IconButton } from '@material-ui/core';
-import { Facebook, Google } from '@material-ui/icons';
+import { Facebook } from '@material-ui/icons';
 import  { useNavigate } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
