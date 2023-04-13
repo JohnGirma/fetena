@@ -23,7 +23,7 @@ import {
   Notifications,
 } from "@material-ui/icons";
 import { Badge, Collapse } from "@material-ui/core";
-import { Link, useNavigation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const drawerWidth = 240;
 
@@ -82,7 +82,7 @@ const ExaminerDashboard = () => {
 
  
   const classes = useStyles();
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = useState(false);
 
   const handleDrawerOpen = () => {
     setOpen(true);
